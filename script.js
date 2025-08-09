@@ -47,7 +47,7 @@ function takeCommand(message){
         speak("hello sir,what can i help you?")
     }
     else if(message.includes("who are you")){
-        speak("i am virtual assistant ,created by Shalini")
+        speak("i am virtual assistant ,created by ADARSH")
     }else if(message.includes("open youtube")){
         speak("opening youtube...")
         window.open("https://youtube.com/","_blank")
@@ -85,4 +85,5 @@ function takeCommand(message){
         speak(finalText)
         window.open(`https://www.google.com/search?q=${message.replace("saki","")}`,"_blank")
     }
+
 }
